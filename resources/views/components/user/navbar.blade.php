@@ -1,7 +1,7 @@
 <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <p class="navbar-item has-text-weight-bold">
-            Jadwal Sidang Pengadilan Negeri Surabaya
+            {{ env('APP_NAME') }}
         </p>
 
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -26,13 +26,13 @@
                 Jadwal Sidang
             </a>
 
-            <div class="navbar-item">
+            <!-- <div class="navbar-item">
                 <div class="buttons">
-                    <a href="{{ route('get.login') }}" class="button is-light">
+                    <a href="{ route('get.login') }" class="button is-light">
                         Log in
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </nav>

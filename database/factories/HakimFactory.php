@@ -20,7 +20,6 @@ class HakimFactory extends Factory
             'hakim_ketua' => fake()->name,
             'hakim_anggota_1' => fake()->name,
             'hakim_anggota_2' => fake()->name,
-            'hakim_anggota_3' => fake()->name,
             'panitera_pengganti' => fake()->name,
         ];
     }

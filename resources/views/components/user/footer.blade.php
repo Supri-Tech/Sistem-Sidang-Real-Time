@@ -1,7 +1,7 @@
 <footer id="kontak" class="footer">
     <div class="container">
         <div class="columns">
-            <div class="column is-6">
+            <div class="column is-12-mobile is-6-tablet">
                 <h3 class="title is-4">SIPN</h3>
                 <p>Sistem Informasi Pengadilan Negeri yang transparan dan akuntabel.</p>
                 <div class="contact-info mt-4">

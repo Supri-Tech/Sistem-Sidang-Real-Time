@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Hakim;
 use App\Models\Perkara;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -19,6 +20,7 @@ class SidangFactory extends Factory
     {
         return [
             'id_perkara' => Perkara::factory(),
+            'id_hakim' => Hakim::factory(),
             'waktu_sidang' => fake()->dateTimeBetween('+1 days', '+30 days'),
             'ruang_sidang' => 'Ruang ' . fake()->randomElement(['A', 'B', 'C']),
             'status_sidang' => fake()->randomElement(['terjadwal', 'ditunda', 'selesai', 'batal']),
